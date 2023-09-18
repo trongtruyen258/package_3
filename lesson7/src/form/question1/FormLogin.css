@@ -1,0 +1,27 @@
+.form-ex3 {
+  width: 400px;
+  margin: 50px auto;
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+}
+.input-ex3 {
+  width: 350px;
+  display: block;
+  margin: 30px auto;
+  height: 30px;
+}
+.input-submit {
+  width: 358px;
+  height: 36px;
+  border: none;
+  padding: 0px;
+  background-image: linear-gradient(to right, blue, indigo, violet);
+  color: #fff;
+  font-size: 20px;
+}
+.bnt-login {
+  height: 36px;
+  margin: 20px 5px;
+  width: 150px;
+}

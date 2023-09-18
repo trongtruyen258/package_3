@@ -1,0 +1,38 @@
+.switch {
+  background: #e0e0e0;
+  width: 100px;
+  padding: 5px;
+  margin: 0 auto;
+  position: relative;
+}
+.switch-label {
+  background: #fff;
+  border-radius: 50px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 5px 2px #888888;
+}
+.switch-label span {
+  font-size: 20px;
+  padding: 10px;
+}
+.switch-label span:first-child {
+  color: green;
+}
+.switch-label span:last-child {
+  color: red;
+}
+.switch-button {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 45px;
+  aspect-ratio: 1;
+  background: #fff;
+  position: absolute;
+
+  top: 5px;
+  transition: left 1s;
+  cursor: pointer;
+}
