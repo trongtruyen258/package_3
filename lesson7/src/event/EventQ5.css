@@ -1,0 +1,27 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.main-menu {
+  background: #000;
+}
+.nav-menu {
+  list-style: none;
+  padding: 0;
+}
+.nav-items {
+  padding: 10px;
+}
+.nav-items:hover {
+  background: gray;
+}
+.nav-items:hover a {
+  color: #fff;
+}
+.nav-link {
+  text-decoration: none;
+  color: gray;
+  display: table;
+  text-align: start;
+}
